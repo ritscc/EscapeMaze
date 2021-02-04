@@ -9,7 +9,11 @@
     },
     "com.unity.ext.nunit": {
       "version": "1.0.5",
+<<<<<<< HEAD
       "depth": 2,
+=======
+      "depth": 1,
+>>>>>>> 2d68eed8a9e2ebeebc052e042512b881c4ae3227
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -24,18 +28,30 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
+<<<<<<< HEAD
       "version": "1.1.4",
+=======
+      "version": "1.2.3",
+>>>>>>> 2d68eed8a9e2ebeebc052e042512b881c4ae3227
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
+<<<<<<< HEAD
       "version": "1.1.11",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.0",
+=======
+      "version": "1.1.19",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.5",
+>>>>>>> 2d68eed8a9e2ebeebc052e042512b881c4ae3227
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
