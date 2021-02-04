@@ -18,6 +18,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Game" t="Include">
+            <e p="Player" t="Include">
+              <e p="PlayerController.cs" t="Include" />
+            </e>
+          </e>
           <e p="SceneController" t="Include">
             <e p="GameController.cs" t="Include" />
           </e>

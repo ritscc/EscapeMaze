@@ -8,7 +8,7 @@ namespace Utils.InputProvider
     {
         Vector3 GetMovingDirection();
 
-        Vector2 GetViewpointShift();
+        Vector3 GetViewpointShift();
 
         bool GetRunning();
 
