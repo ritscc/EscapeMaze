@@ -8,7 +8,7 @@ namespace Utils.InputProvider
     {
         public Vector3 GetMovingDirection() => new Vector3(Input.GetAxisRaw("Horizontal"), 0.0f, Input.GetAxisRaw("Vertical")).normalized;
 
-        public Vector2 GetViewpointShift() => new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+        public Vector3 GetViewpointShift() => new Vector3(- Input.GetAxis("Mouse Y"), Input.GetAxis("Mouse X"), 0);
 
         public bool GetRunning() => Input.GetKeyDown(KeyCode.LeftShift);
 
